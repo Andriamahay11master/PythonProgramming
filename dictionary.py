@@ -42,3 +42,12 @@ print(new_campagne.get("date"))
 #pour vider un dictionnaire
 new_campagne.clear()
 print(new_campagne)
+
+#pour tester si une clef est dans un dictionnaire
+def testCleInDictionary(word):
+    if word in new_campagne_rs:
+        print("True")
+    else:
+        print("False")
+
+testCleInDictionary("ig")
