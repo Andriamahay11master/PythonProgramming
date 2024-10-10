@@ -61,3 +61,17 @@ print(plateformes_sociales)
 # pour vider une liste
 plateformes_sociales.clear()
 print(plateformes_sociales)
+
+#exemple de tupple
+
+plateformes_sociales_tuple = ("Facebook", "Instagram", "Snapchat", "Twitter")
+print(plateformes_sociales_tuple)
+
+# pour verifier si un element est dans le tupple
+def wordInTupple(word):
+    if word in plateformes_sociales_tuple:
+        print("True")
+    else:
+        print("False")
+
+wordInTupple("Snapchat")
