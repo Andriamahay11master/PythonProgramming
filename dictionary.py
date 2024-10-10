@@ -26,3 +26,19 @@ del new_campagne["duree"]
 new_campagne['test'] = 23
 new_campagne.pop("test")
 print(new_campagne)
+
+#pour afficher les clefs d'un dictionnaire
+print(new_campagne.keys())
+
+#pour afficher les values d'un dictionnaire
+print(new_campagne.values())
+
+#pour afficher les clefs et values d'un dictionnaire
+print(new_campagne.items())
+
+#pour afficher la valeur d'une clef
+print(new_campagne.get("date"))
+
+#pour vider un dictionnaire
+new_campagne.clear()
+print(new_campagne)
