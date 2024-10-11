@@ -12,3 +12,22 @@ def display_number(number):
         print(x)    
 
 display_number(10)
+
+capacite_maximale = 10
+capacite_actuelle = 3
+
+while capacite_actuelle < capacite_maximale:
+    capacite_actuelle += 1
+    print(capacite_actuelle)
+
+#exemple utilisation de break et continue
+
+for x in range(10):
+    if x == 5:
+        break
+    print("test break",x)        
+
+for x in range(10):
+    if x == 5:
+        continue
+    print("test continue",x)
