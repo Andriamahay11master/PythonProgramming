@@ -6,3 +6,9 @@ def display_marque(liste):
 
 
 display_marque(liste_marque_voiture)
+
+def display_number(number):
+    for x in range(number):
+        print(x)    
+
+display_number(10)
