@@ -10,5 +10,5 @@ print('\n')
 #with DictReader
 with open('couleurs_preferees.csv') as csvfile:
     reader = csv.DictReader(csvfile)
-    for row in reader:
-        print(row['nom'], row['metier'], row['couleur_preferee'])        
+    for ligne in reader:
+        print(ligne['nom'] + " travaille en tant que " + ligne['metier'] + " et sa couleur préférée est " + ligne['couleur_preferee'])  
